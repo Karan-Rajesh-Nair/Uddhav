@@ -1,0 +1,21 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "For a hackathon ",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server"
+  },
+  "author": "TAG-B",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.0",
+    "webcam-easy": "^1.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}

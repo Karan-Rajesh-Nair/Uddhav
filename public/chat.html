@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title> UDDHAV </title>
+  </head>
+  <body>
+<a href="https://duo.google.com/?web&utm_source=marketing_page_button_main"target="blank">
+  <button class="btn1" ><i class="fas fa-video"></i></button>
+</a>
+<a href="https://globfone.com/call-phone/" target="blank">
+  <button class="btn2" ><i class="fas fa-phone"></i></button>
+</a>
+<a href="https://translate.google.com/?sl=en&tl=en&op=translate" target="blank">
+  <button class="btn3" ><i class="fas fa-language"></i></button>
+</a>  
+<a href="https://pay.google.com/gp/w/u/0/home/signup?sctid=6463405286286313" target="blank">
+  <button class="btn4" ><i class="fas fa-comment-dollar"></i></button>
+</a>
+<a href="https://www.microsoft.com/en-in/microsoft-teams/log-in" target="blank">
+  <button class="btn5" ><i class="fas fa-chalkboard-teacher"></i></button>
+</a>
+<a href="https://www.google.co.in/" target="blank">
+  <button class="btn6" ><i class="fab fa-google"></i></button>
+</a>
+
+    <div class="chat-container">
+      <header class="chat-header">
+        <h1><i class="far fa-envelope"></i> UDDHAV </h1>
+        <a href="index.html" class="btn">Leave Room</a>
+      </header>
+      <main class="chat-main">
+        <div class="chat-sidebar">
+          <h3><i class="fas fa-comments"></i> Class Name: </h3>
+          <h2 id="room-name"></h2>
+          <h3><i class="fas fa-users"></i> Students: </h3>
+          <ul id="users"></ul>
+        </div>
+        <div class="chat-messages"></div>
+      </main>
+      <div class="chat-form-container">
+        <form id="chat-form">
+          <input
+            id="msg"
+            type="text"
+            placeholder="Enter Message"
+            required
+            autocomplete="off"
+          />
+          <button class="btn"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.2/qs.min.js"
+      integrity="sha512-f0AM6x08kthGzMyDHZjBgjBCPp8V8ovlHYCI1jMkhViTeX3MykGCf/DnN1khWss/6d1105eAG4TniSKy6UhZrw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
