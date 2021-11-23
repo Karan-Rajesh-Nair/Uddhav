@@ -45,7 +45,7 @@ video call and voice call to name a few.
   
 ## Installation
 
-Clone the repo to a local file in your devise.
+Clone the repo to a local file in your device.
 we recommend to use Visual Studio codes to open the project.
 
 
